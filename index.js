@@ -1,3 +1,75 @@
+// var tekstas = prompt ('Įveskite savo norimą tekstą tik didžiosiomis raidėmis (max 25 simboliai)');{
+//     if (tekstas.length <= 25) {
+//         alert ('"'+tekstas+'"\n' + ' Jūsų tekste yra įvesta ' + tekstas.length + ' simbolių kiekis' + ', o likęs neišnaudotas kiekis yra :' + (25 - tekstas.length));
+//     } else {
+//         alert('Jūsų tekste yra įvesta: ' + tekstas.length + ' simbolių, tai yra net: ' +  (Math.abs(25 - tekstas.length)) + ' simboliais per daug!!! ' +  "Simboliu kiekis per didelis, veskite per naujo!\n"+'Jūsų įvestas tektas yra: '+tekstas+'\nPataisytas turetų atrodyti taip: '+tekstas.toUpperCase(0,5).slice(0,25));
+//     }}
+
+// var vardas = prompt('Iveskite savo varda');
+// alert (vardas.toUpperCase().slice(0,1)+vardas.toLowerCase().slice(1));
+
+// var amzius = prompt ('Iveskite suns amziu');
+// var zmogaus = ((amzius-2)*4+21);
+// alert (zmogaus);
+
+// function getMilk() {
+//     console.log('LeaveHouse');
+//     console.log('Move right');
+//     console.log('Move right');
+//     console.log('Move up');
+//     console.log('Move up');
+//     console.log('Move up');
+//     console.log('Go back');
+// }
+// getMilk();
+
+// function getMilk(money) {   
+//   console.log("leaveHouse");
+//   console.log("moveRight");
+//   var buteliai = Math.floor(money/1.5);
+//   console.log("buy's "+buteliai  + " bottles of milk");  
+//   console.log("moveLeft");
+//   console.log("enterHouse");
+
+//   return money % 1.5; //likusieji pinigai
+// }
+// var graza = getMilk (5);
+// console.log (graza);
+
+// function lifeInWeeks(age) {
+//     var amziusS = (90*52)-(age*52);
+//     var amziusD = (90*365)-(age*365);
+//     var amziusM = (90*12)-(age*12);
+//     console.log('You have ' + amziusD + ' days, ' + amziusS + ' weeks, ' + 'and ' + amziusM + ' months left')
+
+// }
+// lifeInWeeks (56);
+
+
+// var pinigai = prompt ('iveskite kiek turite pinigu');
+// var kaina = prompt ('iveskite butelio kaina');
+// if (kaina > pinigai){
+//     alert ('neiperki lopas');
+// } else {
+// function skaiciuokle(saskaita, butelioKaina) {   
+//   var buteliai = Math.floor(saskaita/butelioKaina);
+//     console.log ('Jus nupirkote '+ Math.floor(saskaita/butelioKaina)+' buteliu');
+//   return saskaita % butelioKaina; //likusieji pinigai
+  
+// }}
+// var graza = skaiciuokle (pinigai, kaina);
+// console.log ('liko '  + graza + ' euru grazos');
+
+
+
+
+// function bmiCalculator (weight, height) {   
+//   var bmi = Math.round(weight/Math.pow(height, 2));
+//    return bmi;
+// }
+// bmiCalculator (75, 1.8);
+
+
 // var vardas = prompt ('Iveskite varda:');
 // var pavarde = prompt ('Iveskite pavarde:');
 // function taisykla (vardasT, pavardeT) {   
@@ -215,24 +287,28 @@
 
 
 
-var count = 1;
-function bottles (){
-    while (count <= 100){
-    var count2 = 100-count;
-    var count3 = 99-count;
-        if (count2 >=1){
-        console.log (count2 + " bottle of beer on the wall, " + count2 + " bottle of beer.");
-        } else {
-         console.log ("No more bottles of beer on the wall, no more bottles of beer.");        
-        }
-        if (count3 === 0){
-        console.log ("Take one down and pass it around, no more bottles of beer on the wall.");
-        } else if (count3 >= 0){
-        console.log ("Take one down and pass it around, " + count3 + " bottles of beer.");    
-        } else {
-        console.log ("Go to the store and buy some more, 99 bottles of beer on the wall..");    
-        }
-    count ++;
-    }
-}
-bottles (count)
+// var count = 1;
+// function bottles (){
+//     while (count <= 100){
+//     var count2 = 100-count;
+//     var count3 = 99-count;
+//         if (count2 >=1){
+//         console.log (count2 + " bottle of beer on the wall, " + count2 + " bottle of beer.");
+//         } else {
+//          console.log ("No more bottles of beer on the wall, no more bottles of beer.");        
+//         }
+//         if (count3 === 0){
+//         console.log ("Take one down and pass it around, no more bottles of beer on the wall.");
+//         } else if (count3 >= 0){
+//         console.log ("Take one down and pass it around, " + count3 + " bottles of beer.");    
+//         } else {
+//         console.log ("Go to the store and buy some more, 99 bottles of beer on the wall..");    
+//         }
+//     count ++;
+//     }
+// }
+// bottles (count)
+
+
+
+console.log ('pekla');
